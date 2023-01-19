@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+
+main {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article.container-card {
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: .6em;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-card img {
+    width: 100%;
+    border-radius: .3em;
+}
+.container-text {
+    margin-top: 1em;
+}
+
+.container-text h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container-text h1,
+span {
+    margin-top: .3em;
+    color: hsl(0, 0%, 100%);
+}
+
+.container-text p {
+    margin-top: 1em;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.money-day {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+
+}
+
+.money-day__eth {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+
+}
+
+.money-day__eth div img.svg {
+    width: 11px;
+    height: 18px;
+}
+
+.money-day__eth .eth-txt{
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: top;
+    color: hsl(178, 100%, 50%);
+}
+
+.money-day__day {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+}
+
+.footer-user {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px 0 5px 0;
+    border-top: 1px solid hsl(215, 51%, 70%);
+}
+
+.footer-user__img {
+    width: 30px;
+    height: 30px;
+    margin-right:20px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+
+.footer-user__text p{
+    vertical-align: top;
+    color:hsl(215, 51%, 70%)
+}
+
+.footer-user__text span{
+  
+    color:hsl(0, 0, 100%)
+}
